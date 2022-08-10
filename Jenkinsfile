@@ -7,7 +7,6 @@ pipeline {
     stage("Deploy site") {
       steps {
         sh 'cp hawkscan-local.yml /home/jenkins-agent'
-        sh 'cp hawkscan-remote.yml /home/jenkins-agent'
       }
     }
     stage("Run HawkScan Test") {
