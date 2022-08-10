@@ -1,8 +1,9 @@
 app:
-  applicationId: ${APP_ID}
+  applicationId: 980e163e-b72c-40a8-8415-3199de3a1d8b
+  host: http://54.163.195.168:8090
   env: Development
-  host: ${HOST}
 
 hawk:
+  startupTimeoutMinutes: 1
   spider:
     base: false
